@@ -6,11 +6,12 @@
     <project_license>GPL-3.0+</project_license>
     <content_rating type="oars-1.1" />
     <name>Rhyme</name>
+    <developer_name>Abdallah-Moh<developer_name/>
     <summary>The Home of your music.</summary>
     <description>
         <p>The music player for the new era</p>
     </description>
-    <url type="homepage">https://rhyme.netlify.app/</url>
+    <url type="homepage">https://github.com/Rhyme-Player/Rhyme</url>
     <launchable type="desktop-id">com.github.rhyme_player.rhyme.desktop</launchable>
     <screenshots>
         <screenshot type="default">
@@ -33,7 +34,6 @@
                 <p>  - Dark and light theme come by default</p>
                 <p>  - Theme maker to create and use your own theme and you have an option to upload it to the store</p>
                 <p>- More comming, if you want a feature implemented feel free to open an issue with a feature request</p>
-                </p>
             </description>
         </release>
     </releases>
