@@ -14,24 +14,25 @@
     <launchable type="desktop-id">com.github.rhyme_player.rhyme.desktop</launchable>
     <screenshots>
         <screenshot type="default">
-            <image>https://user-images.githubusercontent.com/77546233/124939252-7c95af00-dff8-11eb-94a6-75abdde49640.png</image>
+            <image>https://user-images.githubusercontent.com/77546233/134042586-fbb826b2-c190-4b83-9074-9a1ab364bd6f.png</image>
+            <image>https://user-images.githubusercontent.com/77546233/134042577-80986719-8f1e-479e-b73e-32bfde01522a.png</image>
+            <image>https://user-images.githubusercontent.com/77546233/134042572-d5dabd3b-8d7b-4d79-b06a-4b65c303fd97.png</image>
         </screenshot>
     </screenshots>
     <releases>
-        <release version="v0.6.0" date="2021-9-13">
+        <release version="0.6.0" date="2021-9-13">
             <description>
                 <p>Features</p>
-                <p>
-                - Supports: mp3, opus, ogg, wav, aac, m4a and webm.
-                - Install themes made by the community
-                - Home: Contains your local installed music reads music from default music folder change this in settings
-                - Albums: Displays all the albums that are included in the id3 of the music files
-                - Playlists: Create and suffle through playlists (Work in progress)
-                - Artists: View all the artists that came included with the music files' id3 tag
-                - Theme manager:
-                    - Dark and light theme come by default
-                    - Theme maker to create and use your own theme and you have an option to upload it to the store
-                - More comming, if you want a feature implemented feel free to open an issue with a feature request
+                <p>- Supports: mp3, opus, ogg, wav, aac, m4a and webm.</p>
+                <p>- Install themes made by the community</p>
+                <p>- Home: Contains your local installed music reads music from default music folder change this in settings</p>
+                <p>- Albums: Displays all the albums that are included in the id3 of the music files</p>
+                <p>- Playlists: Create and suffle through playlists (Work in progress)</p>
+                <p>- Artists: View all the artists that came included with the music files' id3 tag</p>
+                <p>- Theme manager:</p>
+                <p>  - Dark and light theme come by default</p>
+                <p>  - Theme maker to create and use your own theme and you have an option to upload it to the store</p>
+                <p>- More comming, if you want a feature implemented feel free to open an issue with a feature request</p>
                 </p>
             </description>
         </release>
