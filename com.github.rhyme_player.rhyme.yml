@@ -13,6 +13,8 @@ finish-args:
   - --socket=pulseaudio
   - --share=network
   - --filesystem=home:ro
+  - --filesystem=/media:ro
+  - --filesystem=/run/media:ro
   - --device=dri
   - --own-name=org.mpris.MediaPlayer2.chromium.*
 build-options:
