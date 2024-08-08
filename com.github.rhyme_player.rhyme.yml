@@ -38,16 +38,14 @@ modules:
       # Bundle app and dependencies
       - cp -a build_dist/linux*unpacked /app/main
       # Install icons
-      - for size in 16 32 48 64 128 256;do install -d $FLATPAK_DEST/share/icons/hicolor/${size}x${size}/apps; cp ./build/linux/icons/${size}x${size}.png $FLATPAK_DEST/share/icons/hicolor/${size}x${size}/apps/$FLATPAK_ID.png; done
+      - for size in 16 32 48 64 128 256;do install -d $FLATPAK_DEST/share/icons/hicolor/${size}x${size}/apps; cp build/linux/icons/${size}x${size}.png $FLATPAK_DEST/share/icons/hicolor/${size}x${size}/apps/$FLATPAK_ID.png; done
       # Install app wrapper
       - install -Dm755 -t /app/bin/ ../run.sh
       - install -Dm644 -t $FLATPAK_DEST/share/applications ../$FLATPAK_ID.desktop
       - install -Dm644 -t $FLATPAK_DEST/share/metainfo ../$FLATPAK_ID.appdata.xml
     sources:
-      - type: git
-        url: https://github.com/rhyme-player/rhyme.git
-        tag: v0.6.0
-        commit: ac06b1cf5679c7c0779d524683f7c4de04ea3350
+      - type: dir
+        path: rhyme-player
         dest: main
 
       - type: file
