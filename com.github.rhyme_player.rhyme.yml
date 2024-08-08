@@ -38,7 +38,7 @@ modules:
       # Bundle app and dependencies
       - cp -a build_dist/linux*unpacked /app/main
       # Install icons
-      - for size in 16 32 48 64 128 256;do install -d $FLATPAK_DEST/share/icons/hicolor/${size}x${size}/apps; cp build/linux/icons/${size}x${size}.png $FLATPAK_DEST/share/icons/hicolor/${size}x${size}/apps/$FLATPAK_ID.png; done
+      - install -Dm0644 ../$FLATPAK_ID.png $FLATPAK_DEST/share/icons/hicolor/256x256/apps/$FLATPAK_ID.png
       # Install app wrapper
       - install -Dm755 -t /app/bin/ ../run.sh
       - install -Dm644 -t $FLATPAK_DEST/share/applications ../$FLATPAK_ID.desktop
@@ -63,3 +63,5 @@ modules:
         path: com.github.rhyme_player.rhyme.desktop
       - type: file
         path: com.github.rhyme_player.rhyme.appdata.xml
+      - type: file
+        path: com.github.rhyme_player.rhyme.png
