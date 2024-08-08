@@ -46,8 +46,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/rhyme-player/rhyme.git
-        tag: v0.6.2
-        commit: 5317fb1c50b491647077bbc501a1fa0d468f4a5e
+        tag: v0.6.0
+        commit: ac06b1cf5679c7c0779d524683f7c4de04ea3350
         dest: main
 
       - type: file
